@@ -1,0 +1,52 @@
+.block1-container {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+}
+.block1-container img {
+    width: 200px;
+    height: 200px;
+}
+.mid {
+    width: 750px;
+}
+.mid h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ffff;
+}
+.mid p {
+    color: #ffff;
+}
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.btn {
+    width: 100px;
+    height: 40px;
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    font-size: smaller;
+    cursor: pointer;
+}
+.btn2 {
+    width: 120px;
+    height: 40px;
+    background-color: rgb(228, 228, 21);
+    color: #fff;
+    font-size: smaller;
+    cursor: pointer;
+}
+.btn:hover {
+    transform: translateY(-4px);
+}
+.btn2:hover {
+    transform: translateY(-4px);
+}

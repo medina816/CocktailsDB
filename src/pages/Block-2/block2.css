@@ -1,0 +1,70 @@
+.out {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.put {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    max-width: 300px;
+    width: 100%;
+}
+
+.put input {
+    flex: 1;
+    height: 40px;
+    border: none;
+    padding: 0 15px;
+    outline: none;
+    font-size: 14px;
+}
+
+.put button {
+    height: 40px;
+    width: 50px;
+    border: none;
+    background-color: white;
+    border-left: 1px solid #ccc;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    transition: background-color 0.3s ease;
+}
+
+.put button:hover {
+    background-color: #f5f5f5;
+}
+
+hr {
+    border: none;
+    height: 1.5px;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 1100px;
+    background-color: white;
+}
+.bot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bot img {
+    height: 15px;
+    object-fit: cover;
+}
+.bot h5 {
+    font-size: 14px;
+    margin-left: 5px;
+    color: #999;
+}
+
+

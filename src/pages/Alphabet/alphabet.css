@@ -1,0 +1,40 @@
+/* Контейнер для алфавита */
+.alphabet-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    justify-items: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Кнопки для букв */
+.alphabet-grid button {
+    background-color: orange;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+    max-width: 50px;
+    text-transform: uppercase;
+}
+
+/* Эффект при наведении на кнопку */
+.alphabet-grid button:hover {
+    background-color: #2980b9;
+    transform: scale(1.1);
+}
+
+/* Эффект при активном состоянии кнопки */
+.alphabet-grid button:active {
+    background-color: #1f6f8b;
+    transform: scale(0.98);
+}

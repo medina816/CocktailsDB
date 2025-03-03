@@ -1,0 +1,28 @@
+/* money.css */
+.money-container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; 
+    text-align: center; 
+  }
+  
+  .money-container h1 {
+    font-size: 48px; 
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .money-container  img {
+    width: 200px;
+   
+  }
+  
+  .money-container p {
+    font-size: 36px;
+    color: #333;
+    margin-top: 20px;
+  }
+  

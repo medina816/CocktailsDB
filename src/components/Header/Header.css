@@ -1,0 +1,53 @@
+.header {
+    background-color: #2c001e;
+    padding: 15px 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 40px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-right button {
+    background: none;
+    border: 1px solid white;
+    color: orange;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.nav-right button:hover {
+    background-color: white;
+    /* color: #2c001e; */
+    font-size: 24px;
+    color: orange;
+}
+
+.nav-right input {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.burger .icon {
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
