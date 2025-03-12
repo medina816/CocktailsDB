@@ -21,25 +21,11 @@
 .mid p {
     color: #ffff;
 }
-.btns {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-}
-.btn {
-    width: 100px;
-    height: 40px;
-    background-color: green;
-    color: #fff;
-    text-align: center;
-    font-size: smaller;
-    cursor: pointer;
-}
+
 .btn2 {
     width: 120px;
     height: 40px;
-    background-color: rgb(228, 228, 21);
+    background-color: green;
     color: #fff;
     font-size: smaller;
     cursor: pointer;

@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { getCocktails } from '../pages/redux/cocktails/cocktailsSlice'; 
+import { getCocktails } from '../pages/redux/cocktails/cocktailsSlice';
 import './cocktailsList.css';
+import { Link } from 'react-router-dom';
 
 const CocktailsList = () => {
     const dispatch = useDispatch();
@@ -19,7 +20,9 @@ const CocktailsList = () => {
             <div className="cocktails-flex">
                 {list.map((drink) => (
                     <div key={drink.idDrink} className="cocktail-card">
-                        <img src={drink.strDrinkThumb} alt={drink.strDrink} className="cocktail-image"/>
+                        <Link to={`/cocktailInfo/${drink.idDrink}`}>
+                            <img src={drink.strDrinkThumb} alt={drink.strDrink} className="cocktail-image" />
+                        </Link>
                         <div className="cocktail-name">{drink.strDrink}</div>
                     </div>
                 ))}

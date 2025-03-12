@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './Header.css';
-import { IoIosMenu } from 'react-icons/io';
 import { useNavigate } from 'react-router-dom';
 
 function Header() {
@@ -32,9 +31,7 @@ function Header() {
                         onKeyDown={handleKeyDown} 
                     />
                 </div>
-                <div className='burger'>
-                    <IoIosMenu className='icon' />
-                </div>
+           
             </nav>
         </header>
     );

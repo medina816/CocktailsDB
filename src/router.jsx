@@ -5,6 +5,7 @@ import Layout from './components/Layout/Layout';
 import Alphabet from './pages/Alphabet/Alphabet';
 import AlphabetPage from './pages/AlphabetPage/AlphabetPage';
 import Money from './pages/Money';
+import CoctailInfo from './pages/CocktailInfo/CocktailIfo';
 
 export const myRouter = createBrowserRouter([
     {
@@ -31,7 +32,11 @@ export const myRouter = createBrowserRouter([
                 path: 'money',
                  element: <Money /> 
                 },
-        
+              
+                 { 
+                    path: 'cocktailInfo/:id',
+                    element: <CoctailInfo /> 
+                },
         ]
     }
 ]);
